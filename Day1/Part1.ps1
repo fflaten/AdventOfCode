@@ -1,4 +1,4 @@
-$in = Get-Content $PSScriptRoot\input.txt | ForEach-Object { $_.Trim() -as [int] }
+$in = Get-Content "$PSScriptRoot\input.txt" | ForEach-Object { $_.Trim() -as [int] }
 
 $prev = $null
 $timesIncreased = 0

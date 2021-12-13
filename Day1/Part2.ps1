@@ -1,4 +1,4 @@
-$in = Get-Content $PSScriptRoot\input.txt
+$in = Get-Content "$PSScriptRoot\input.txt"
 
 $timesIncreased = 0
 $prev = $null
